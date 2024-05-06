@@ -1,0 +1,42 @@
+* {
+    /* border: 1px solid red; */
+    font-family: cursive;
+}
+
+body {
+    background: green;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buttoncont {
+    width: 40%;
+}
+
+button {
+    width: 100%;
+    border-radius: 100px;
+    background-color: yellow;
+    height: 40px;
+    font-size: large;
+    /* outline: none; */
+    border: none;
+}
+button:hover{
+    background-color: rgba(255, 255, 0, 0.884);
+}
+button:active{
+    background-color: rgba(255, 255, 179, 0.973);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 6</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var string = 'My name is Hasnain'; index = prompt('Enter a index number')
+    if (index >= 0 && index < string.length) {
+        var modifiedString = string.slice(0, index) + string.slice(index + 1)
+        document.write(`The Orignal String : ${string}<br>The Modified String ${modifiedString}`)
+    } else {
+        alert('Enter a valid inndex No')
+    }
+
+</script>
+
+</html>

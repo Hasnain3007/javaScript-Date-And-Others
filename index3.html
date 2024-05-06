@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 3</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    var startYear = 2024
+    var endYear = 2050
+    for (var i = startYear; i <= endYear; i++) {
+
+        var januaryCheck = new Date(i, 0, 1)
+        if (januaryCheck.getDay() == 0) {
+            januaryCheck=januaryCheck.toString()
+            document.write(januaryCheck.slice(0,15),'<br>')
+        }
+        
+    }
+
+
+</script>
+
+</html>

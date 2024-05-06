@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment 1</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var ampm = 'AM'
+    var days = ['sunday', 'monday', 'thuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+    var now = new Date()
+    var gettingday = now.getDay()
+    var gettinghours = now.getHours()
+    var gettingminutes = now.getMinutes()
+    var gettingseconds = now.getSeconds()
+
+    if (gettinghours >= 12) {
+        gettinghours - 12
+        ampm = 'PM'
+    }
+    var time = `Today is ${days[gettingday]} and time is ${gettinghours} : ${gettingminutes} : ${gettingseconds} ${ampm}`
+
+    document.write(time)
+
+</script>
+
+</html>
